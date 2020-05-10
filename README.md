@@ -1,2 +1,2 @@
 <img src="https://raw.githubusercontent.com/hershyz/chemtools/master/assets/logo.png"/>
-<p>Chemistry tools in a command line interface.</p>
+<h3>Chemistry tools in a command line interface.</h3>
