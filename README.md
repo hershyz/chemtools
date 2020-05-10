@@ -1,6 +1,9 @@
 <img src="https://raw.githubusercontent.com/hershyz/chemtools/master/assets/logo.png"/>
 <h3>Chemistry tools in a command line interface.</h3>
-<p>The Chemtools CLI helps perform stoichiometry, limiting reactant, and mole calculations.</p>
+<p>
+  The Chemtools CLI helps perform stoichiometry, limiting reactant, and mole calculations.
+  Release can be found <a href="https://github.com/hershyz/chemtools/releases/tag/0.1">here</a>.</p>
+</p>
 
 <br>
 
