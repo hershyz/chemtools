@@ -9,9 +9,9 @@
 
 <h4>Valid Commands:</h4>
 <pre>
-  help:                       Shows all available commands.
-  exit:                       Closes the shell.
-  lookup (symbol):            Looks up the information of an element.
+  help:                                           Shows all available commands.
+  exit:                                           Closes the shell.
+  lookup (symbol):                                Looks up the information of an element.
   palookup (name):                                Looks up the information of a polyatomic ion.
   mm (symbol):                                    Finds the molar mass of a compound.
   moles (symbol, grams):                          Converts grams of a substance to moles.
