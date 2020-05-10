@@ -9,10 +9,11 @@
   help:                       Shows all available commands.
   exit:                       Closes the shell.
   lookup (symbol):            Looks up the information of an element.
-  palookup (name):            Looks up the information of a polyatomic ion.
-  mm (symbol):                Finds the molar mass of a compound.
-  moles (symbol, grams):      Converts grams of a substance to moles.
-  lr:                         Limiting reactant calculator between two compounds with mole ratios.
+  palookup (name):                                Looks up the information of a polyatomic ion.
+  mm (symbol):                                    Finds the molar mass of a compound.
+  moles (symbol, grams):                          Converts grams of a substance to moles.
+  lr:                                             Limiting reactant calculator between two compounds with mole ratios.
+  se (energy change, mass, temperature change):   Calculates the specific heat of a substance.
 </pre>
 
 <br>
@@ -47,6 +48,10 @@
   mole ratio 1:   1
   mole ratio 2:   2
   lr: 2O
+</pre>
+<pre>
+  > se 4402.7 50.29 10
+  8.754623185523961
 </pre>
 
 <br>
