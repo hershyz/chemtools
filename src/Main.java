@@ -112,6 +112,22 @@ public class Main {
             }
         }
 
+        //specific heat command:
+        if (command.equals("se")) {
+
+            try {
+                double energyChange = Double.valueOf(args[1]);
+                double mass = Double.valueOf(args[2]);
+                double tempChange = Double.valueOf(args[3]);
+                double specificHeat = cb.se(energyChange, mass, tempChange);
+
+                System.out.println(specificHeat);
+            }
+            catch (Exception e) {
+                System.out.println("usage: se (energy change, mass temperature change)");
+            }
+        }
+
         //exit command:
         if (command.equals("exit")) {
             System.exit(0);
