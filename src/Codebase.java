@@ -2,7 +2,7 @@ public class Codebase {
 
     private static Elements e = new Elements();
     private static Polyatomics pa = new Polyatomics();
-    public static String[] commands = new String[]{"help", "exit", "lookup", "palookup", "mm", "lr", "moles"};
+    public static String[] commands = new String[]{"help", "exit", "lookup", "palookup", "mm", "lr", "moles", "se"};
 
     //checks if a command exists:
     public boolean commandExists(String command) {
@@ -74,5 +74,9 @@ public class Codebase {
     //converts grams of a substance to moles:
     public static double moles(String elements, double grams) {
         return grams / getMM(elements);
+    }
+
+    public static double se(double energyChange, double mass, double tempChange) {
+        return (energyChange / mass) / tempChange;
     }
 }
